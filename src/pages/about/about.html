@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title mode="ios"><h1 class="title">About Me</h1></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <h2 class="student">Student</h2>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        <ion-row>
+          <ion-label><strong>Name</strong></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label><strong>Surname</strong></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label><strong>identifitacion</strong></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label><strong>Degree</strong></ion-label>
+        </ion-row>
+      </ion-col>
+      <ion-col col-8>
+        <ion-row>
+          <ion-label>{{name()}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{surname()}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{identifitacion()}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{degree()}}</ion-label>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

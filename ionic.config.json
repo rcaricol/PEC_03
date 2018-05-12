@@ -1,0 +1,8 @@
+{
+  "name": "PEC_03",
+  "app_id": "e61c5e43",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
