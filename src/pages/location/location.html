@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title mode="ios"><h1 class="title">My Actual location</h1></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <h2 class="location">My actual positions is</h2>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        <ion-row>
+          <ion-label><strong>Latitude</strong></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label><strong>Longitude</strong></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label><strong>Geocode</strong></ion-label>
+        </ion-row>
+      </ion-col>
+      <ion-col col-8>
+        <ion-row>
+          <ion-label>{{latitude()}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{longitude()}}</ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>{{address()}}</ion-label>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
